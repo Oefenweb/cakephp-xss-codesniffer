@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<ruleset name="CakePHPXSSOefenweb">
+	<description>Oefenweb Code Sniffer for CakePHP XSS</description>
+
+  <autoload>../../../wp-coding-standards/wpcs/WordPress/PHPCSAliases.php</autoload>
+
+	<rule ref="WordPress.XSS.EscapeOutput">
+		<properties>
+			<property name="customAutoEscapedFunctions" value="h,no_escape" type="array" />
+		</properties>
+	</rule>
+</ruleset>

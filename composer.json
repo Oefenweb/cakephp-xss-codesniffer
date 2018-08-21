@@ -10,7 +10,7 @@
 	"authors": [
 		{
 			"name": "Oefenweb.nl BV team",
-			"homepage": "https://github.com/Oefenwebcakephp-xss-codesniffer/contributors"
+			"homepage": "https://github.com/Oefenweb/cakephp-xss-codesniffer/contributors"
 		}
 	],
 	"require": {

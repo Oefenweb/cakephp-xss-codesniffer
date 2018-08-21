@@ -12,7 +12,7 @@ mkdir CakePHPXSSOefenweb && cd $_ && composer require oefenweb/cakephp-xss-codes
 
 ```sh
 vendor/bin/phpcs \
-  --config-set installed_paths "${PWD}/vendor/cakephp/cakephp-codesniffer,${PWD}/vendor/oefenweb/cakephp-xss-codesniffer" \
+  --config-set installed_paths "${PWD}/vendor/wp-coding-standards/wpcs,${PWD}/vendor/oefenweb/cakephp-xss-codesniffer" \
 ;
 ```
 
@@ -21,5 +21,5 @@ This lets `phpcs` know where to find your new sniffs. Ensure that you do not ove
 ## Usage
 
 ```sh
-vendor/bin/phpcs --standard=CakePHPXSSOefenweb ~/foo/bar/index.php;
+vendor/bin/phpcs --standard=CakePHPXSSOefenweb --extensions=ctp,php ~/foo/bar/index.php;
 ```

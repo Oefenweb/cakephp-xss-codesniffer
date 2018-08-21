@@ -2,7 +2,7 @@
 <ruleset name="CakePHPXSSOefenweb">
 	<description>Oefenweb Code Sniffer for CakePHP XSS</description>
 
-  <autoload>../../../wp-coding-standards/wpcs/WordPress/PHPCSAliases.php</autoload>
+	<autoload>../../../wp-coding-standards/wpcs/WordPress/PHPCSAliases.php</autoload>
 
 	<rule ref="WordPress.XSS.EscapeOutput">
 		<properties>

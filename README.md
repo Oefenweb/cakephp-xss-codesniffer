@@ -12,7 +12,7 @@ mkdir CakePHPXSSOefenweb && cd $_ && composer require oefenweb/cakephp-xss-codes
 
 ```sh
 vendor/bin/phpcs \
-  --config-set installed_paths "${PWD}/vendor/cakephp/cakephp-codesniffer,${PWD}/vendor/oefenweb/cakephp-xss-codesniffer" \
+  --config-set installed_paths "${PWD}/vendor/wp-coding-standards/wpcs,${PWD}/vendor/oefenweb/cakephp-xss-codesniffer" \
 ;
 ```
 

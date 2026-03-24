@@ -1,6 +1,6 @@
 # Oefenweb Code Sniffer for CakePHP 3 (XSS)
 
-This code works with [phpcs](https://github.com/squizlabs/PHP_CodeSniffer) and checks code against the coding standards used at Oefenweb.
+This code works with [phpcs](https://github.com/PHPCSStandards/PHP_CodeSniffer) and checks code against the coding standards used at Oefenweb.
 
 ## Installation
 

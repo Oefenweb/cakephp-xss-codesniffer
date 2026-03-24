@@ -4,7 +4,7 @@
 	<autoload>../../../wp-coding-standards/wpcs/WordPress/PHPCSAliases.php</autoload>
 	<rule ref="WordPress.XSS.EscapeOutput">
 		<properties>
-			<property name="customAutoEscapedFunctions" value="" type="array">
+			<property name="customAutoEscapedFunctions" type="array">
 				<element value="h" />
 				<element value="no_escape" />
 			</property>
